@@ -145,9 +145,9 @@ h1, h2 {
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
-    background-color: #a3a7ac;
+    transform: translateY(-10px) scale(1.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-card a {
