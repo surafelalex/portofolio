@@ -148,6 +148,7 @@ h1, h2 {
     transform: translateY(-10px) scale(1.05);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color:red;
 }
 
 .project-card a {
